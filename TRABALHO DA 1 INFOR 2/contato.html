@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/hud.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <b></b><title>CONTATO</title></b>
+</head>
+<body>
+    <header>
+<a href="#" class="btn-abrir" onclick="abriMenu()">&#9776; Abrir</a>
+    </header>
+        <nav id="menu">
+          <a href="#" onclick="fecharMenu()">&times; Fechas</a></p>
+          <a href="index.html">Início</a></p>
+          <a href="contato.html">Contato</a></p>
+          <a href="integrantes.html">Integrantes</a></p>
+        </nav>
+        <p><input id="searchbar" onkeyup="search()" type="text"
+            name="search" placeholder="Search.."></p>
+            <main id="conteudo">
+                <ol>
+                <li class="animals"><p><h2><img src="img/WhatsApp.svg.webp" width="50px"></h2><b>GABRIEL HENRIQUE: 31 995065662</b></h2></li>
+                <li class="animals"><p><h2><img src="img/WhatsApp.svg.webp" width="50px"></h2><b>ALAN PEREIRA: 31 </h2></b></li>
+                    <li class="animals"><p><h2><img src="img/WhatsApp.svg.webp" width="50px"></h2><b>KATHINE: 31 995065662</h2></b></li>
+                        <li class="animals"><p><h2><img src="img/WhatsApp.svg.webp" width="50px"></h2><b>MIZAEL: 31 995065662</h2></b></li>
+                        </ol>
+                        </body> 
+<script src="animals.js"></script>
+<script>
+    function abriMenu(){
+document.getElementById('menu').style.width = '250px';
+ducument.getElementById('conteudo').style.width = '250px';
+    }
+    function fecharMenu(){
+        document.getElementById('menu').style.width = '0px';
+        document.getElementById('conteudo').style.marginLeft = "0px";
+    }
+</script>
+</html> 

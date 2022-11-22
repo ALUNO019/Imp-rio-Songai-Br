@@ -1,0 +1,121 @@
+@charset "UTF-8";
+@font-face {
+    font-family: BlackOut;
+    src: url('fontes/Blackout.otf') format('opentype');
+}
+@font-face {
+    font-family: apollo;
+    src: url('fontes/Apollo.ttf') format('truetype');
+}
+@font-face {
+    font-family: italic;
+    src: url('fontes/Ostrich\ Sans\ Inline-regular.otf') format('opentype');
+
+  }
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+  }
+  .ou{
+      display: block;
+  }
+  header{
+    background-color: rgb(21, 4, 98);
+    padding: 10px;
+  }
+  nav{
+    height: 100%;
+    width: 0px;
+    background-color: rgb(21, 4, 98);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: width 0.3s;
+  }
+  .btn-abrir{
+    color: white;
+    font-size: 25px;
+  }
+  nav a{
+    color :white;
+    font-size: 25px;
+    display: block;
+    padding: 12px 10px 12px 32px;
+  }
+  nav a:hover{
+    color: black;
+  }
+  main{
+    padding: 10px;
+    transition: margin-left 0.5s;
+  }
+a{
+font-family: 'apollo';
+font-weight: bold;
+text-decoration: none;
+}
+h1{
+font-family: 'apollo' , sans-serif;
+text-align: center;
+text-shadow: 14px black;
+}
+h2{
+font-family: 'italic' , sans-serif;
+text-align: left;
+text-shadow: 14px black;
+margin: auto;
+}
+.começo{
+font-family: 'apollo';
+text-align: justify;
+margin: auto;
+}
+.img{
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img2{
+height: 700px;
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    text-align: justify;
+}
+.decoração{
+    font-family: 'BlackOut';
+    text-align: center;
+  }
+  #searchbar{
+    margin-left: 15%;
+    padding:15px;
+    border-radius: 10px;
+  }
+
+  input[type=text] {
+     width: 30%;
+     -webkit-transition: width 0.15s ease-in-out;
+     transition: width 0.15s ease-in-out;
+  }
+
+  /* When the input field gets focus,
+       change its width to 100% */
+  input[type=text]:focus {
+    width: 70%;
+  }
+
+ #list{
+   font-size:  1.5em;
+   margin-left: 90px;
+  }
+
+.animals{
+  display: list-item;    
+ } 
